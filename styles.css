@@ -5,12 +5,20 @@ h1,p {
     text-align:center;
 }
 
+.title > h1{
+    margin-bottom: -5px;
+    padding-bottom: 0px;
+}
 img, image{
     max-width:100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+.img-caption{
+    display: flex;
+    justify-content: center;
 }
 .signature{
     display: block;
